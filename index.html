@@ -26,6 +26,7 @@
     <div class="input-area">
       <input id="user-input" type="text" placeholder="輸入訊息...">
       <button onclick="sendMessage()">送出</button>
+      <button class="btn-clear" onclick="clearChat()">清除對話</button>
     </div>
 
     <!-- 組員 B 任務：在這裡加上組員名單 -->
@@ -55,6 +56,11 @@
 
       input.value = '';
       chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    function clearChat() {
+      const chatBox = document.getElementById('chat-box');
+      chatBox.innerHTML = '<div class="message bot">嗨！這是我們組一起做的 Chatbot 🎉</div>';
     }
 
     document.getElementById('user-input').addEventListener('keypress', function(e) {
