@@ -13,6 +13,8 @@
 | 組員 A | （填名字）| `feature/member-a` | 修改使用者訊息顏色 & 加計數器 | ⬜ |
 | 組員 B | （填名字）| `feature/member-b` | 修改按鈕樣式 & 加 footer 名單 | ⬜ |
 | 組員 C | （填名字）| `feature/member-c` | 加入歡迎訊息 & 自訂回覆邏輯 | ⬜ |
+| 組員 D | （填名字）| `feature/member-d` | 加入深色模式切換按鈕 | ⬜ |
+| 組員 E | （填名字）| `feature/member-e` | 加入清除對話功能 | ⬜ |
 
 狀態：⬜ 未開始 / 🔄 進行中 / ✅ 已完成 / 🔀 PR 已開 / ✔️ 已 Merge
 
@@ -43,11 +45,22 @@
 - [ ] 修改 `sendMessage()` 裡 bot 的回覆邏輯（例如：根據關鍵字給不同回覆）
 - [ ] 開 PR，請組長 review
 
+### 組員 D（`feature/member-d` branch）
+- [ ] 在 `index.html` 的 header 加入深色模式切換按鈕
+- [ ] 在 `style.css` 加入 `body.dark` 的相關樣式（背景、文字、訊息框顏色）
+- [ ] 開 PR，請組長 review
+
+### 組員 E（`feature/member-e` branch）
+- [ ] 在 `index.html` 的 input-area 加入「清除對話」按鈕
+- [ ] 在 `<script>` 中加入 `clearChat()` 函數，清空 `#chat-box` 的內容
+- [ ] 在 `style.css` 為清除按鈕加上樣式（建議用不同顏色與 main 按鈕區分）
+- [ ] 開 PR，請組長 review
+
 ---
 
 ## 預期會出現的 Conflict
 
-組員 A 和組員 B 都會修改 `style.css`，
-組員 A 和組員 C 都會修改 `index.html`。
+組員 A、B、D、E 都會修改 `style.css`，
+組員 A、C、D、E 都會修改 `index.html`。
 
 合併時會出現 conflict ── 這是**刻意設計的**，練習解決！
