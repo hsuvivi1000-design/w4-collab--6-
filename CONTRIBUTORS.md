@@ -23,10 +23,10 @@
 ## 各組員任務說明
 
 ### 組長（`main` branch）
-- [ ] 把 `index.html` 裡的「第 X 組」改成你們組的實際名稱
-- [ ] 修改 `style.css` 裡 `header` 的背景顏色
-- [ ] 在這個檔案填入所有組員姓名
-- [ ] 最後負責 review 所有 PR 並 merge
+- [x] 把 `index.html` 裡的「第 X 組」改成你們組的實際名稱
+- [x] 修改 `style.css` 裡 `header` 的背景顏色
+- [x] 在這個檔案填入所有組員姓名
+- [x] 最後負責 review 所有 PR 並 merge
 
 ### 組員 A（`feature/member-a` branch）
 - [ ] 修改 `style.css` 裡 `.message.user` 的 `background` 顏色
