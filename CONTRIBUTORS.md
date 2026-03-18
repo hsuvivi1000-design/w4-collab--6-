@@ -9,12 +9,12 @@
 
 | 角色 | 姓名 | 負責分支 | 任務 | 狀態 |
 |------|------|---------|------|------|
-| 組長 | 許瀞云 | `main` | 修改標題 & header 顏色 | ⬜ |
+| 組長 | 許瀞云 | `main` | 修改標題 & header 顏色 | ✔️ |
 | 組員 A | （填名字）| `feature/member-a` | 修改使用者訊息顏色 & 加計數器 | ⬜ |
 | 組員 B | （填名字）| `feature/member-b` | 修改按鈕樣式 & 加 footer 名單 | ⬜ |
 | 組員 C | （填名字）| `feature/member-c` | 加入歡迎訊息 & 自訂回覆邏輯 | ⬜ |
-| 組員 D | 林湘紜 | `feature/member-d` | 加入深色模式切換按鈕 | ⬜ |
-| 組員 E | 姚谷伝 | `feature/member-e` | 加入清除對話功能 | ⬜ |
+| 組員 D | 林湘紜 | `feature/member-d` | 加入深色模式切換按鈕 | ✔️ |
+| 組員 E | 姚谷伝 | `feature/member-e` | 加入清除對話功能 | ✔️ |
 
 狀態：⬜ 未開始 / 🔄 進行中 / ✅ 已完成 / 🔀 PR 已開 / ✔️ 已 Merge
 
@@ -46,15 +46,15 @@
 - [ ] 開 PR，請組長 review
 
 ### 組員 D（`feature/member-d` branch）
-- [ ] 在 `index.html` 的 header 加入深色模式切換按鈕
-- [ ] 在 `style.css` 加入 `body.dark` 的相關樣式（背景、文字、訊息框顏色）
-- [ ] 開 PR，請組長 review
+- [x] 在 `index.html` 的 header 加入深色模式切換按鈕
+- [x] 在 `style.css` 加入 `body.dark` 的相關樣式（背景、文字、訊息框顏色）
+- [x] 開 PR，請組長 review
 
 ### 組員 E（`feature/member-e` branch）
-- [ ] 在 `index.html` 的 input-area 加入「清除對話」按鈕
-- [ ] 在 `<script>` 中加入 `clearChat()` 函數，清空 `#chat-box` 的內容
-- [ ] 在 `style.css` 為清除按鈕加上樣式（建議用不同顏色與 main 按鈕區分）
-- [ ] 開 PR，請組長 review
+- [x] 在 `index.html` 的 input-area 加入「清除對話」按鈕
+- [x] 在 `<script>` 中加入 `clearChat()` 函數，清空 `#chat-box` 的內容
+- [x] 在 `style.css` 為清除按鈕加上樣式（建議用不同顏色與 main 按鈕區分）
+- [x] 開 PR，請組長 review
 
 ---
 
