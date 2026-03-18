@@ -30,6 +30,24 @@ header {
   background: #4f8ef7;   /* 改成你們組喜歡的顏色 */
   color: white;
   padding: 20px 24px;
+  position: relative;
+}
+
+#theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
 header h1 { font-size: 20px; }
 header .subtitle { font-size: 13px; opacity: 0.85; margin-top: 4px; }
@@ -107,4 +125,58 @@ footer {
   font-size: 12px;
   color: #999;
   border-top: 1px solid #f0f0f0;
+}
+
+/* ── 深色模式 ────────────────────────
+   深色模式相關樣式
+   ──────────────────────────────────── */
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark .container {
+  background: #1e1e1e;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+body.dark header {
+  background: #2c2c2c;
+  color: #e0e0e0;
+}
+
+body.dark .message.bot {
+  background: #333;
+  color: #e0e0e0;
+}
+
+body.dark .message.user {
+  background: #388e6a;
+}
+
+body.dark .input-area {
+  border-top: 1px solid #333;
+}
+
+body.dark .input-area input {
+  background: #333;
+  color: #e0e0e0;
+  border: 1px solid #555;
+}
+
+body.dark .input-area button {
+  background: #3a6bba;
+}
+
+body.dark footer {
+  border-top: 1px solid #333;
+  color: #888;
+}
+
+body.dark #theme-toggle {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+body.dark #theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
